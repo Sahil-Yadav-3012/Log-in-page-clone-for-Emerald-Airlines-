@@ -1,0 +1,288 @@
+body {
+    background-color: white;
+    size: 50%;
+}
+
+header {
+    background-color: #006B5B;
+    height: 140px;
+}
+
+#box {
+    background-blend-mode: color;
+    backdrop-filter: blur(2px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: 600px;
+    width: 30%;
+
+    border: 0.1px solid white;
+    border-radius: 25px 25px 25px 25px;
+    position: static;
+    box-shadow: black 0px 5px 15px;
+}
+
+h2 {
+    align-self: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    font-family: Gill Sans MT;
+    font-size: 300%;
+    font-weight: 800;
+    cursor: default;
+}
+
+#id {
+    display: block;
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;   
+    width: 270px;
+    border-radius: 50px 50px 50px 50px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    border: 0.5px solid black;
+    transition: 0.5s ease;
+}
+
+#id:hover {
+    box-shadow: 0 0 10px 0 #000000;
+    filter: drop-shadow(#000000 , offy=2 , offx=2);
+    background-color: rgba(255, 255, 255, 0.557);
+    color: black;
+    text-decoration: black 0.5px;
+}
+
+#pass {
+    display: block;
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 270px;
+    border-radius: 50px 50px 50px 50px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 300;
+    border: 0.5px solid black;
+    transition: 0.5s ease;
+
+}
+
+#pass:hover {
+    box-shadow: 0 0 10px 0 #000000;
+    filter: drop-shadow(hsl(0, 0%, 0%) , offy=2 , offx=2);
+    background-color: rgba(255, 255, 255, 0.557);
+    color: black;
+    text-decoration: black 0.5px;
+}
+
+#Remember {
+    height: 15px;
+    width: 15px;
+    float: left;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px 1px 1px 0px;
+    margin-left: 30px;
+    margin-top: 4px;
+    transition: 0.3s ease;
+}
+
+#Remember:hover {
+
+    background-color: #2c2c2c;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
+}
+
+label.Remember1 {
+    margin-top: 60px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#forgot {
+    margin-left: 90px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(146, 146, 146);
+    transition: 0.2s ease-out;
+}
+
+#forgot:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+#submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 270px;
+    border-radius: 50px 50px 50px 50px ;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: teal;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#submit:hover {
+    box-shadow: 0 0 8px 0 #828282;
+    filter: drop-shadow(#828282 ,  offy=2 , offx=2 );
+
+}
+
+.new {
+    font-size: 300;
+    margin-left: 30px;
+    cursor: default;
+}
+
+#forget1 {
+    color: teal;
+    font-size: 300;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+#forget1:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#apple-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 270px;
+    border-radius: 50px ;
+    text-align: centre;
+    color: white;
+    background-color: black;
+    border: solid 0.1px black;
+    text-size-adjust: 600;
+    line-height: 35px;
+   cursor: pointer;
+
+}
+
+
+#apple-logo {
+    height: 33px;
+    margin-left: 5px;
+    margin-top: 0px;
+
+}
+
+#google-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 270px;
+    background-color: white;
+    border: solid 0.1px rgb(0, 0, 0);
+    border-radius: 50px;
+    text-align: center;
+    align-self: center;
+    line-height: 35px;
+    margin-top: 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#google-logo {
+    height: 27px;
+    margin-top: 3px;
+}
+
+#google-button:hover {
+    box-shadow: 0 0 5px black;
+    filter: drop-shadow(black , offy=2 , offx=2);
+
+}
+
+#apple-button:hover {
+    box-shadow: 0 0 3px #828282;
+    filter: drop-shadow(#828282 , offy=2 , offx=2);
+
+}
+
+#emerald {
+    height: 140px;
+}
+
+#f1 {
+    background-color: #006B5B;
+    height: 300px;
+}
+
+#f2 {
+    background-color: #002d27;
+}
+
+#pre1 {
+    color: white;
+    font-size: large;
+    text-size-adjust: large;
+    font-weight: 100;
+    margin: 1px 0 0 0;
+}
+
+#em-location {
+    color: white;
+}
+
+#neeche {
+    margin-top: 10px;
+}
+
+#pre2 {
+    color: white;
+    font-size: large;
+    text-size-adjust: large;
+    font-weight: 100;
+    margin: 1px 0 0 0;
+}
+
+#priv {
+    color: white;
+    text-decoration: none;
+}
+
+#cons {
+    color: white;
+    text-decoration: none;
+}
+
+#neeche-logo {
+    margin-left: 75%;
+    margin-bottom: 20%;
+    
+}
+
+#MKC {
+    border: 0.5px solid black;
+    
+  
+}
